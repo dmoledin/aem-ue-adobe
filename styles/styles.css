@@ -10,15 +10,16 @@
  * governing permissions and limitations under the License.
  */
 
-:root {s
+:root {
   /* colors */
   --background-color: white;
   --light-color: #f8f8f8;
   --dark-color: #505050;
-  /*--text-color: #131313;*/
+
+  /* --text-color: #131313; */
   --text-color: #3b63fb;
   --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;s
+  --link-hover-color: #1d3ecf;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -74,7 +75,6 @@
 body {
   display: none;
   margin: 0;
-  
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
